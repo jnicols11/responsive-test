@@ -11,6 +11,6 @@ class EventsController extends Controller
     {
         $events = EventDAO::getAllEvents();
 
-        return redirect('/events', compact($events));
+        return view('events', compact($events));
     }
 }

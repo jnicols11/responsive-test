@@ -91,7 +91,7 @@
             });
 
             // Set onChange function for max cost of event
-            document.querySelector('#maxcost').addEventListener('chagne', function() {
+            document.querySelector('#maxcost').addEventListener('change', function() {
                 var maxCost = document.getElementById('maxcost').value;
 
                 for (var i = 0; i < events.length; i++) {
